@@ -13,7 +13,7 @@ const Project = (props) => {
             <p className="project--name">{props.name}</p>
             <p className="project--desc">{props.desc}</p>
             <a 
-                href={props.github} 
+                href={props.url} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="project--link"    
