@@ -1,0 +1,66 @@
+.project {
+    background-color: #112D32;
+    border-radius: 25px;
+    height: 450px;
+    width: 250px;
+    padding: 40px;
+    margin: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 10px #112D32;
+}
+
+.project--img {
+    width: 250px;
+    height: 150px;
+    border: 2px solid #3AAFA9;
+}
+
+.project--name {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.project--desc {
+    font-size: 18px;
+    width: 80%;
+    line-height: 25px;
+}
+
+.project--link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.project--link:hover {
+    font-size: 20px;
+    border-bottom: 3px solid #3AAFA9;
+    color: #3AAFA9;
+}
+
+.project--link:last-child {
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .project {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .project {
+        padding: 20px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,23 @@
+.item--container {
+    background-color: #3AAFA9;
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 8px 8px 10px #112D32;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .item--container {
+        width: 120px;
+        font-size: 18px;
+    }
+}

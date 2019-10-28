@@ -1,0 +1,42 @@
+.footer--container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #112D32;
+    margin-top: 40px;
+}
+
+.footer--container a:hover {
+    color: #3AAFA9;
+}
+
+.footer--text {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.footer--text:last-child {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer--text {
+        font-size: 25px;
+        margin: 15px auto;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .footer--text {
+        font-size: 20px;
+        margin: 10px auto;
+        margin-bottom: 0;
+    }
+}
+

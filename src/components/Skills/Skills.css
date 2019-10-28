@@ -1,0 +1,24 @@
+.skills--title {
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    margin: 25px auto;
+}
+
+.skills--container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .skills--container {
+        width: 100%;
+    }
+}
